@@ -1,0 +1,30 @@
+/* Container for the entire product list */
+.product-list {
+  display: flex;
+  overflow-x: auto;  /* Enable horizontal scroll if needed */
+  white-space: nowrap;
+  padding: 10px;
+  gap: 15px; /* space between cards */
+  scroll-behavior: smooth;
+  margin-top: 35px;
+  padding-left: 120px;
+}
+
+/* Individual product card */
+.product-card {
+  flex: 0 0 auto; /* Prevent cards from shrinking */
+  width: 100px;
+  text-align: center;
+}
+
+/* Image styling */
+.product-image {
+  width: 100px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.element {
+  scrollbar-width: none;
+}
+

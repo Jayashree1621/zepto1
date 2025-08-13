@@ -1,0 +1,131 @@
+.navbar {
+  height: 142px;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to top,#FFFFFF, #ecdcff);
+  padding: px 20px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sticky-header{
+  position: sticky;
+  top: 0;
+  z-index: 102;
+  padding-bottom: 0;
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  padding: 5px 15px 5px ;
+  column-gap: 12px;
+}
+
+.logo {
+  margin-right: 10px;
+  padding-left: 50px;
+  width: 90;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 2px;
+}
+
+
+
+.location {
+  margin-left: 5px;
+  font-weight: 600;
+  column-gap: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px; /* which is 14px */
+  line-height: 1.25rem; /* which is 20px */
+  font-family: inherit;
+  color: black;
+}
+
+.search-input {
+  flex-grow: 4;
+  height: 45px;
+  width: 900px;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.search-input.active {
+  border: 1px solid #ccc;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  height: 50px;
+  padding-right: 60px;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+}
+
+.icon-box span {
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+
+
+.bottom-nav {
+  display: flex;
+  align-items: center;
+  gap: 3px; /* spacing between icon and text */
+  cursor: pointer;
+
+  padding-left: 120px;
+}
+
+.bottom-nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+}
+
+.bottom-nav li {
+  font-size: 16px;
+  cursor: pointer;
+  color: #555;
+  transition: color 0.3s, border-color 0.3s;
+  padding-top: 15px;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  }
+
+.bottom-nav a.active li {
+  color: #a61fc8;
+  font-weight: 500;
+    border-bottom: 3px solid #a61fc8;
+    padding-bottom: 12px;
+    
+}
+.bottom-nav a:hover li {
+  color: #a61fc8;
+  font-weight: 500;
+  border-bottom: 3px solid #a61fc8;
+  padding-bottom: 12px;
+}
+ 
+
+

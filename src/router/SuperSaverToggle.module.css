@@ -1,0 +1,75 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.toggleSwitch {
+  width: 100px;
+  height: 34px;
+  background-color: #cbd5e1;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.toggleSwitch.active {
+  background: linear-gradient(to bottom, #3eba57, #08731d) ;
+
+}
+
+.icon {
+  height: 25px;
+  width: auto;
+  z-index: 1;
+  padding-left: 35px;
+
+}
+.icons{
+  height: 25px;
+  width: auto;
+  z-index: 1;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  transition: left 0.3s ease;
+  z-index: 0;
+}
+
+.left {
+  left: 5px;
+}
+
+.right {
+  left: 68px; /* aligned to the right inside 180px width */
+  background: #fcf65d;
+}
+
+.red{
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #f5d657;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+}
+.rupee{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 2px;
+}
